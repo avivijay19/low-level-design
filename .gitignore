@@ -1,2 +1,4 @@
 /.idea/
 design-patterns.iml
+/target
+/creation-design-patterns/target/
