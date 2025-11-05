@@ -1,0 +1,4 @@
+- Tight coupling and code duplication: The code for handling different states is often duplicated across multiple classes, leading to tight coupling between the state management logic and the context class. This makes it difficult to modify or extend the state behavior without affecting other parts of the code.
+- Violotion of the Open/Closed Principle: The state management logic is often implemented using conditional statements (e.g., if-else or switch-case), which violates the Open/Closed Principle. Adding new states or modifying existing ones requires changes to the context class, making it less maintainable and extensible.
+- Code Duplication: The same state transition logic may be duplicated in multiple places, leading to code duplication and making it harder to maintain and update the code.
+- Scalability Issues: As the number of states increases, the complexity of the state management logic grows, making it harder to manage and understand the code.
