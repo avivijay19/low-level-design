@@ -1,0 +1,5 @@
+- when writing code for a software application, you may encounter situations where you need to implement different algorithms or strategies for a specific task.
+- for example, consider a payment processing system that supports multiple payment methods such as credit card,
+- debit card, and digital wallets. each payment method may have its own unique algorithm for processing payments.
+- in such cases, using a single implementation for all payment methods can lead to complex and hard
+- to-maintain code. this is where the strategy design pattern comes into play.
