@@ -1,0 +1,18 @@
+package structuralDesignPattern.compositeDesignPattern.problem;
+
+/**
+ * @author : avinashvijayvargiya
+ * @created : 11/11/25, Tuesday
+ **/
+
+public class File {
+    private final String name;
+
+    public File(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return "File: " + name;
+    }
+}
